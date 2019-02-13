@@ -1,0 +1,61 @@
+label:hover {background:#eaeaea;}
+.stimuli{
+	display:none;
+	visibility:hidden;
+
+	position:fixed;
+
+	top:50%;
+	left:50%;
+	margin:auto;
+
+	transform: translate(-50%, -50%);
+
+	font-size:62px;
+	color:black;
+}
+
+.responseOptions{
+	display:none;
+	visibility:hidden;
+
+	position:fixed;
+	text-align:center;
+
+	left:50%;
+	bottom:15%;
+	max-width:400px;
+
+	margin:auto;
+
+	transform: translate(-50%, -50%);
+
+	border: 2px solid black;
+	padding: 0px 10px;
+}
+
+.reminder{
+	display:none;
+	visibility:hidden;
+
+	position:fixed;
+
+	left:50%;
+	top:60px;
+	max-width:400px;
+
+	margin:auto;
+
+	transform: translate(-50%, -50%);
+
+	font-size:12pt;
+
+	border: 2px solid black;
+	padding: 0px 10px;
+}
+
+div#infoPage, div#consentPage, div#endPage, div#blockOverPage, div#twoBackInstructionPage, div#threeBackInstructionPage{
+	display:none;
+	visibility:hidden;
+	font-size:16pt;
+}
