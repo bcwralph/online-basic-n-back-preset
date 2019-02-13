@@ -6,7 +6,7 @@ $id = $_GET['id'];
 ?>
 
 <link rel ="styleSheet" href="styleSheet.css" type="text/css" charset="utf-8"/>
-<script type='text/javascript' src='jquery-1.11.3.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type='text/javascript'>
 window.onload=function(){
 
